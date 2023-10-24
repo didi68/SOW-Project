@@ -52,6 +52,14 @@ h1 {
     text-align: center;
 }
 
+.left, .right {
+    display: inline-block;
+}
+
+.right {
+    float: right;
+}
+
 @media (max-width: 993px) {
     .nav-bar, .nav-item {
         font-size: 10px;
